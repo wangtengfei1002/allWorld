@@ -221,6 +221,9 @@
         color: #cecece;
         font-size: 25px;
     }
+    .c-strength__items__item {
+        padding: 0 30px;
+    }
   }
   @media only screen and (max-width: 1280px){
     .web-header h3 {
@@ -295,6 +298,12 @@
     }
     .marketing-page .marketing-sub-tt {
         font-size: 20px;
+    }
+    .marketing-text-wrap {
+        width: auto;
+    }
+    .c-strength__items__item {
+        padding: 0 10px;
     }
   }
   @media only screen and (max-width: 782px){
