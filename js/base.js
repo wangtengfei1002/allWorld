@@ -164,7 +164,7 @@ $(function(){
 
         setTimeout(function(){
             $('.talk_window').show();
-            $.cookie('the_cookie', 'aaa');
+            // $.cookie('the_cookie', 'aaa');
         },20000);
 
     $(document).on('click','.talk_window_con .t_w_close,.t_w_btn .a_close,.t_w_btn .menu_ly,.menu_ly_click1',function(){

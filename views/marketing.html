@@ -13,11 +13,12 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/animate.css">
     <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/important.css">
     <script>
         // loading
-        (function(){
+        (function () {
             var html = document.querySelector('html');
-            var windowLoadHandler = function(){html.classList.remove('is-loading');}
+            var windowLoadHandler = function () { html.classList.remove('is-loading'); }
             window.addEventListener('load', windowLoadHandler, false);
             setTimeout(windowLoadHandler, 500);
         }());
@@ -32,13 +33,11 @@
                 <rect width="4.67" height="21.84" />
                 <rect x="68.07" width="4.37" height="21.84" />
                 <rect x="25.8" width="4.37" height="21.84" />
-                <polygon
-                    points="45.05 0 45.05 0 40.96 0 40.96 21.84 45.04 21.84 45.05 6.82 54.05 21.84 58.72 21.84 45.63 0 45.05 0" />
+                <polygon points="45.05 0 45.05 0 40.96 0 40.96 21.84 45.04 21.84 45.05 6.82 54.05 21.84 58.72 21.84 45.63 0 45.05 0" />
                 <polygon points="58.72 0 54.63 0 54.63 4.12 58.71 4.12 58.72 0" />
-                <polygon
-                    points="125.93 21.84 116.91 0 112.57 0 107.35 12.78 111.72 12.78 114.91 4.99 121.86 21.84 125.93 21.84" />
-                <path
-                    d="M86.37,21.84h9.77a11.61,11.61,0,0,0,6.27-7.09H98A7.36,7.36,0,1,1,91.43,4.12a7.3,7.3,0,0,1,6,3.12l3.26-2.51A11.42,11.42,0,0,0,80,11.51a11.53,11.53,0,0,0,6.37,10.33" />
+                <polygon points="125.93 21.84 116.91 0 112.57 0 107.35 12.78 111.72 12.78 114.91 4.99 121.86 21.84 125.93 21.84" />
+                <path d="M86.37,21.84h9.77a11.61,11.61,0,0,0,6.27-7.09H98A7.36,7.36,0,1,1,91.43,4.12a7.3,7.3,0,0,1,6,3.12l3.26-2.51A11.42,11.42,0,0,0,80,11.51a11.53,11.53,0,0,0,6.37,10.33"
+                />
             </svg>
         </div>
         <div class="l-loading__text">
@@ -70,15 +69,20 @@
         </div>
     </div>
 
-    <div class="l-wrapper">
+    <div class="l-wrapper marketing-page">
 
         <header class="l-header">
-            <h1 class="l-header__sitelogo"><a href="https://linica.jp"><img
-                        src="https://linica.jp/wp-content/themes/linica/assets/img/logo_circle.svg"
-                        alt="株式会社LINICA（リニカ）" width="60" height="60"></a></h1>
+            <h1 class="l-header__sitelogo">
+                <a href="./index.html">
+                    <img src="https://linica.jp/wp-content/themes/linica/assets/img/logo_circle.svg" alt="株式会社LINICA（リニカ）" width="60" height="60">
+                </a>
+            </h1>
             <div class="l-header__gnav">
-                <button class="l-header__gnav__toggler"
-                    aria-label="メニュー"><span></span><span></span><span></span></button>
+                <button class="l-header__gnav__toggler" aria-label="メニュー">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <div class="l-header__gnav__overlay">
                     <div class="l-header__gnav__overlay__inner">
                         <ul id="menu-%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%8a%e3%83%93" class="menu">
@@ -89,32 +93,28 @@
                                     <i></i>
                                 </a>
                             </li>
-                            <li id="menu-item-31"
-                                class="menu-disabled menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                            <li id="menu-item-31" class="menu-disabled menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
                                 <a href="https://linica.jp/casestudy/">
                                     <span class="__description">服务领域</span>
                                     <!-- <span class="__title">制作事例</span> -->
                                     <i></i>
                                 </a>
                                 <ul class="sub-menu">
-                                    <li id="menu-item-3362"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <li id="menu-item-3362" class="menu-item menu-item-type-post_type menu-item-object-page">
                                         <a href="./web-server.html">
                                             <span class="__description">web技术服务</span>
                                             <!-- <span class="__title">コーポレートサイト制作</span> -->
                                             <i></i>
                                         </a>
                                     </li>
-                                    <li id="menu-item-3197"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <li id="menu-item-3197" class="menu-item menu-item-type-post_type menu-item-object-page">
                                         <a href="./creative.html">
                                             <span class="__description">创意设计类</span>
                                             <!-- <span class="__title">UXデザイン</span> -->
                                             <i></i>
                                         </a>
                                     </li>
-                                    <li id="menu-item-3196"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <li id="menu-item-3196" class="menu-item menu-item-type-post_type menu-item-object-page">
                                         <a href="./marketing.html">
                                             <span class="__description">营销内容</span>
                                             <!-- <span class="__title">ブランディング</span> -->
@@ -123,8 +123,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li id="menu-item-3084"
-                                class="menu-item menu-item-type-post_type_archive menu-item-object-works">
+                            <li id="menu-item-3084" class="menu-item menu-item-type-post_type_archive menu-item-object-works">
                                 <a href="./case.html">
                                     <span class="__description">案例</span>
                                     <!-- <span class="__title">案例</span> -->
@@ -165,33 +164,16 @@
 
 
 
-        <footer class="l-footer">
-            <div class="l-footer__inner">
-                <p class="l-footer__sitelogo"><a href="https://linica.jp"><img
-                            src="https://linica.jp/wp-content/themes/linica/assets/img/logo_footer.svg"
-                            alt="株式会社LINICA（リニカ）" width="196" height="34"></a></p>
-                <div class="l-footer__nav">
-                    <ul id="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93" class="menu">
-                        <li id="menu-item-3391"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3391"><a
-                                href="https://linica.jp/privacy/">PRIVACY POLICY</a></li>
-                    </ul>
-                </div>
-                <div class="l-footer__address">
-                    <address class="l-footer__address__ja">102-0074 東京都千代田区九段南3-2-7 いちご九段三丁目ビル B1F 03-3288-1681
-                    </address>
-                    <address class="l-footer__address__en">B1F, 3-2-7 Ichigo Kudan 3-chome Bld., Kudanminami,
-                        Chiyoda-ku, Tokyo, 102-0074, Japan 03-3288-1681</address>
-                </div>
-                <ul class="l-footer__sns">
-                    <li><a href="https://twitter.com/linica_inc" target="_blank" rel="noopener"><i class="icon-twitter"
-                                aria-label="twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/linicainc" target="_blank" rel="noopener"><i
-                                class="icon-facebook" aria-label="facebook"></i></a></li>
-                </ul>
-                <p class="l-footer__copyright">&copy;LINICA,Inc.</p>
-            </div>
-        </footer>
+        <p class="c-linica-tm">
+            <img src="https://linica.jp/wp-content/themes/linica/assets/img/logo.svg" alt="株式会社LINICA（リニカ）" width="134" height="23">
+            <sup>&trade;</sup>
+        </p>
+
+        <div class="l-category-header l-category-header--works">
+            <p class="l-category-header__title-en is-waypoint is-lettering" data-lettering-step="100">营销内容服务</p>
+            <h1 class="l-category-header__title is-waypoint is-lettering" data-lettering-offset="600">Marketing Content Service</h1>
+            <p class="marketing-sub-tt">SEM，整合营销 ，品牌方案定制</p>
+        </div>
 
     </div>
     <script type='text/javascript'>
@@ -207,24 +189,34 @@
         <div class="cl_box cl_con02 activ_con02 cf">
             <div class="wrap cf">
                 <h3 class="fnt_30">
-                    <p class="fnt_30 f_title">营销云</p>
-                    <em class="en fnt_24 mt_15">Marketing Cloud</em>
-                    <span class="line mt_25"></span>
+                    <div class="marketing-text-wrap">
+                        <p class="fnt_30 f_title">SEM</p>
+                        <em class="en fnt_24 mt_15">Search Engine Marketing</em>
+                        <span class="line mt_25"></span>
+                    </div>
                 </h3>
-                <div class="p fnt_16 mt_15 line_height19">
-                    符合客户整体营销策略，开放式、联结型的线上营销落地介质的规划与建设，满足企业在不同线上传播场景、途径的落地需求。通过创意、设计、互动的呈现，提升落地转化率，提高营销价值。</div>
-                <div class="dl">
+                <div class="p ft-18 mt-100 line_height30">
+                    什么是SEM？公式说明如下：
+                    <br> SEM=SEO（自然排名）+竞价（付费排名与其他付费位置）+付费收录（此项可忽略）。
+                </div>
+                <div class="dl p-lr-200">
                     <dl>
-                        <dt><img src="http://www.cebest.com:80/zqgc/images/activ_img01.png" alt=""></dt>
-                        <dd class="fnt_16">活动Minisite</dd>
+                        <dt>
+                            <img src="http://www.cebest.com:80/zqgc/images/activ_img01.png" alt="">
+                        </dt>
+                        <dd class="fnt_16">SEO</dd>
                     </dl>
                     <dl>
-                        <dt><img src="http://www.cebest.com:80/zqgc/images/activ_img02.png" alt=""></dt>
-                        <dd class="fnt_16">H5制作</dd>
+                        <dt>
+                            <img src="http://www.cebest.com:80/zqgc/images/activ_img02.png" alt="">
+                        </dt>
+                        <dd class="fnt_16">竞价</dd>
                     </dl>
                     <dl>
-                        <dt><img src="http://www.cebest.com:80/zqgc/images/activ_img03.png" alt=""></dt>
-                        <dd class="fnt_16">会员营销</dd>
+                        <dt>
+                            <img src="http://www.cebest.com:80/zqgc/images/activ_img03.png" alt="">
+                        </dt>
+                        <dd class="fnt_16">付费收录</dd>
                     </dl>
                 </div>
             </div>
@@ -237,10 +229,13 @@
                     <em class="en fnt_24 mt_15">Omni-Channel Marketing Solutions</em>
                     <span class="line mt_25"></span>
                 </h3>
-                <div class="p fnt_16 mt_30 line_height19">
+                <div class="p ft-18 mt_30 line_height30">
                     通过营销活动，扩大客户需求。在适当的时机提供符合个人特点的个性化体验，为客户带来惊喜，让客户满意——用心与客户沟通，建立牢固的关系。</div>
-                <div class="xq_bnt ccont cf"><a href="javascript:;"><img
-                            src="http://www.cebest.com:80/zqgc/images/tyan.png" alt=""></a></div>
+                <div class="xq_bnt ccont cf">
+                    <a href="javascript:;">
+                        <img src="http://www.cebest.com:80/zqgc/images/tyan.png" alt="">
+                    </a>
+                </div>
             </div>
             <div class="map_bg">
                 <img src="http://www.cebest.com:80/zqgc/images/activ_con03_img.png" alt="">
@@ -249,31 +244,107 @@
         </div>
         <div class="cl_box cl_con04 activ_con02 cf">
             <div class="cl_con05_img cf">
-                <h3 class="fnt_30">
-                    <p class="fnt_30 f_title">营销云</p>
-                    <em class="en fnt_24 mt_15">Marketing Cloud</em>
-                    <span class="line mt_25"></span>
+                <h3 class="fnt_30 ">
+                    <div class="marketing-text-wrap">
+                        <p class="fnt_30 f_title">品牌方案定制</p>
+                        <em class="en fnt_24 mt_15">Customization of Brand Scheme</em>
+                        <span class="line mt_25"></span>
+                    </div>
                 </h3>
-                <div class="p fnt_16 mt_15 line_height19">
+                <div class="p ft-18 mt_15 line_height30">
                     符合客户整体营销策略，开放式、联结型的线上营销落地介质的规划与建设，满足企业在不同线上传播场景、途径的落地需求。通过创意、设计、互动的呈现，提升落地转化率，提高营销价值。</div>
-                <div class="dl">
+                <div class="dl four-mark-box p-lr-200">
                     <dl>
-                        <dt><img src="http://www.cebest.com:80/zqgc/images/activ_img01.png" alt=""></dt>
+                        <dt>
+                            <img src="http://www.cebest.com:80/zqgc/images/activ_img01.png" alt="">
+                        </dt>
                         <dd class="fnt_16">活动Minisite</dd>
                     </dl>
                     <dl>
-                        <dt><img src="http://www.cebest.com:80/zqgc/images/activ_img02.png" alt=""></dt>
+                        <dt>
+                            <img src="http://www.cebest.com:80/zqgc/images/activ_img02.png" alt="">
+                        </dt>
                         <dd class="fnt_16">H5制作</dd>
                     </dl>
                     <dl>
-                        <dt><img src="http://www.cebest.com:80/zqgc/images/activ_img03.png" alt=""></dt>
+                        <dt>
+                            <img src="http://www.cebest.com:80/zqgc/images/activ_img03.png" alt="">
+                        </dt>
+                        <dd class="fnt_16">会员营销</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="http://www.cebest.com:80/zqgc/images/activ_img03.png" alt="">
+                        </dt>
                         <dd class="fnt_16">会员营销</dd>
                     </dl>
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="p-top-section-cta" style="position:relative;background: #fff; z-index: 999">
+        <div class="p-top-section-cta__download">
+            <div class="p-top-section-cta__download__inner">
+                <div class="p-top-section-cta__download__header">
+                    <p class="p-top-section-cta__download__header__title-en *is-waypoint">业务咨询</p>
+                    <h2 class="p-top-section-cta__download__header__title *is-waypoint">資料ダウンロード</h2>
+                </div>
+                <p>
+                    <a class="c-button c-button--small c-button--border-none" href="javascript:;">
+                        <span>业务咨询</span>
+                        <i></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+        <a href="./concat-us.html" class="p-top-section-cta__contact">
+            <div class="p-top-section-cta__contact__inner">
+                <div class="p-top-section-cta__contact__header">
+                    <p class="p-top-section-cta__contact__header__title-en *is-waypoint">联系我们</p>
+                    <h2 class="p-top-section-cta__contact__header__title *is-waypoint">お問い合わせ</h2>
+                </div>
+                <p>
+                    <span class="c-button c-button--small">
+                        <span>Contact form</span>
+                        <i></i>
+                    </span>
+                </p>
+            </div>
+        </a>
+    </div>
+    <footer class="l-footer">
+        <div class="l-footer__inner">
+            <p class="l-footer__sitelogo">
+                <a href="https://linica.jp">
+                    <img src="https://linica.jp/wp-content/themes/linica/assets/img/logo_footer.svg" alt="株式会社LINICA（リニカ）" width="196" height="34">
+                </a>
+            </p>
+            <div class="l-footer__nav">
+                <ul id="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93" class="menu">
+                    <li id="menu-item-3391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3391">
+                        <a href="https://linica.jp/privacy/">021QSJ.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="l-footer__address">
+                <address class="l-footer__address__ja">上海市松江区银都西路350号歆翱创意园D223室</address>
+                <address class="l-footer__address__en">联系人：蒋先生&nbsp;&nbsp;&nbsp;直线：15721482787&nbsp;&nbsp;&nbsp;&nbsp;电话：021-6645772&nbsp;&nbsp;&nbsp;&nbsp;邮箱：307446212@qq.c</address>
+            </div>
+            <ul class="l-footer__sns">
+                <li>
+                    <a href="javascript:;" rel="noopener">
+                        <img src="../img/ewm.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" rel="noopener">
+                        <img src="../img/qq.png" alt="">
+                    </a>
+                </li>
+            </ul>
+            <p class="l-footer__copyright">&copy; 沪ICP备 24556789</p>
+        </div>
+    </footer>
 
     <script type="text/javascript" src="http://www.cebest.com:80/zqgc/js2/jquery.js"></script>
     <script type="text/javascript" src="http://www.cebest.com:80/zqgc/js2/jquery.easing.js"></script>
@@ -297,8 +368,7 @@
     </script>
 
 
-    <script type="text/javascript" defer
-        src="https://linica.jp/wp-content/cache/autoptimize/js/autoptimize_ab33aff924c052a578067b6ade5dff6f.js"></script>
+    <script type="text/javascript" defer src="https://linica.jp/wp-content/cache/autoptimize/js/autoptimize_ab33aff924c052a578067b6ade5dff6f.js"></script>
 </body>
 
 </html>

@@ -53,13 +53,16 @@ function scroll_anim(){
         'left':'0px'
       },1000);
     }
-    if(scrollT($('.serv_con04'))){
-      $('.serv_con04 .serv_c04_left').animate({
-        'opacity':'1'
-      },1000);
-      $('.serv_con04 .serv_c04_right .c04_r_con').animate({
-        'opacity':'1',
-        'right':0
-      },1000);
+    if ($('.serv_con04')[0]) {
+      if(scrollT($('.serv_con04'))){
+        $('.serv_con04 .serv_c04_left').animate({
+          'opacity':'1'
+        },1000);
+        $('.serv_con04 .serv_c04_right .c04_r_con').animate({
+          'opacity':'1',
+          'right':0
+        },1000);
+      }
     }
+    
 }

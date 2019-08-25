@@ -2,21 +2,21 @@
 <html lang="ja" prefix="og: http://ogp.me/ns#" class="is-loading is-loading-init ">
 
 <head>
-    <script src="./js/spu7cri.js"></script>
+    <script src="../js/spu7cri.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Manifest added by SuperPWA - Progressive Web Apps Plugin For WordPress -->
     <!-- / SuperPWA.com -->
     <link type="text/css" href="../css/autoptimize_c31274133277b73a2805b57f7a59d948.css" rel="stylesheet" />
-    <title>ホームページ制作・webブランディング | 株式会社LINICA（リニカ）</title>
+    <title>案例</title>
     <link rel="stylesheet" href="../css/important.css">
     <meta name="google-site-verification" content="google5e41fb08e83d92db" />
 
     <script>
         // loading
-        (function(){
+        (function () {
             var html = document.querySelector('html');
-            var windowLoadHandler = function(){html.classList.remove('is-loading');}
+            var windowLoadHandler = function () { html.classList.remove('is-loading'); }
             window.addEventListener('load', windowLoadHandler, false);
             setTimeout(windowLoadHandler, 500);
         }());
@@ -27,12 +27,17 @@
     <div class="l-wrapper">
 
         <header class="l-header">
-            <p class="l-header__sitelogo"><a href="https://linica.jp"><img
-                        src="https://linica.jp/wp-content/themes/linica/assets/img/logo_circle.svg"
-                        alt="株式会社LINICA（リニカ）" width="60" height="60"></a></p>
+            <p class="l-header__sitelogo">
+                <a href="./index.html">
+                    <img src="https://linica.jp/wp-content/themes/linica/assets/img/logo_circle.svg" alt="株式会社LINICA（リニカ）" width="60" height="60">
+                </a>
+            </p>
             <div class="l-header__gnav">
-                <button class="l-header__gnav__toggler"
-                    aria-label="メニュー"><span></span><span></span><span></span></button>
+                <button class="l-header__gnav__toggler" aria-label="メニュー">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <div class="l-header__gnav__overlay">
                     <div class="l-header__gnav__overlay__inner">
                         <ul id="menu-%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%8a%e3%83%93" class="menu">
@@ -43,32 +48,28 @@
                                     <i></i>
                                 </a>
                             </li>
-                            <li id="menu-item-31"
-                                class="menu-disabled menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                            <li id="menu-item-31" class="menu-disabled menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
                                 <a href="https://linica.jp/casestudy/">
                                     <span class="__description">服务领域</span>
                                     <!-- <span class="__title">制作事例</span> -->
                                     <i></i>
                                 </a>
                                 <ul class="sub-menu">
-                                    <li id="menu-item-3362"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <li id="menu-item-3362" class="menu-item menu-item-type-post_type menu-item-object-page">
                                         <a href="./web-server.html">
                                             <span class="__description">web技术服务</span>
                                             <!-- <span class="__title">コーポレートサイト制作</span> -->
                                             <i></i>
                                         </a>
                                     </li>
-                                    <li id="menu-item-3197"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <li id="menu-item-3197" class="menu-item menu-item-type-post_type menu-item-object-page">
                                         <a href="./creative.html">
                                             <span class="__description">创意设计类</span>
                                             <!-- <span class="__title">UXデザイン</span> -->
                                             <i></i>
                                         </a>
                                     </li>
-                                    <li id="menu-item-3196"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <li id="menu-item-3196" class="menu-item menu-item-type-post_type menu-item-object-page">
                                         <a href="./marketing.html">
                                             <span class="__description">营销内容</span>
                                             <!-- <span class="__title">ブランディング</span> -->
@@ -77,8 +78,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li id="menu-item-3084"
-                                class="menu-item menu-item-type-post_type_archive menu-item-object-works">
+                            <li id="menu-item-3084" class="menu-item menu-item-type-post_type_archive menu-item-object-works">
                                 <a href="./case.html">
                                     <span class="__description">案例</span>
                                     <!-- <span class="__title">案例</span> -->
@@ -116,8 +116,10 @@
         </header>
 
         <main class="l-main">
-            <p class="c-linica-tm"><img src="https://linica.jp/wp-content/themes/linica/assets/img/logo.svg"
-                    alt="株式会社LINICA（リニカ）" width="134" height="23"><sup>&trade;</sup></p>
+            <p class="c-linica-tm">
+                <img src="https://linica.jp/wp-content/themes/linica/assets/img/logo.svg" alt="株式会社LINICA（リニカ）" width="134" height="23">
+                <sup>&trade;</sup>
+            </p>
 
             <div class="l-category-header l-category-header--works">
                 <p class="l-category-header__shoulder is-waypoint">Project</p>
@@ -127,12 +129,17 @@
 
             <div class="c-archive-nav">
                 <ul class="c-archive-nav__items">
-                    <li class='cat-item-all current-cat'><a href='javascript:;'>全部</a></li>
-                    <li class="cat-item cat-item-7"><a href="javascript:;">网站</a>
+                    <li class='cat-item-all current-cat'>
+                        <a href='javascript:;'>全部</a>
                     </li>
-                    <li class="cat-item cat-item-8"><a href="javascript:;">平面</a>
+                    <li class="cat-item cat-item-7">
+                        <a href="javascript:;">网站</a>
                     </li>
-                    <li class="cat-item cat-item-9"><a href="javascript:;">M G 动画</a>
+                    <li class="cat-item cat-item-8">
+                        <a href="javascript:;">平面</a>
+                    </li>
+                    <li class="cat-item cat-item-9">
+                        <a href="javascript:;">M G 动画</a>
                     </li>
                 </ul>
                 <div class="c-archive-nav__current"></div>
@@ -141,247 +148,232 @@
             <div class="c-works-list is-waypoint">
                 <div class="c-works-list__items">
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/ix-tenshoku/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
-                                    data-lazy-src="https://linica.jp/wp-content/uploads/2019/03/ix_img-772x478.jpg"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
-                                    data-lazy-srcset="https://linica.jp/wp-content/uploads/2019/03/ix_img-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2019/03/ix_img-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2019/03/ix_img-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2019/03/ix_img-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2019/03/ix_img-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2019/03/ix_img-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2019/03/ix_img-386x239.jpg 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2019/03/ix_img-772x478.jpg"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2019/03/ix_img-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2019/03/ix_img-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2019/03/ix_img-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2019/03/ix_img-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2019/03/ix_img-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2019/03/ix_img-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2019/03/ix_img-386x239.jpg 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
+                                    data-lazy-src="https://linica.jp/wp-content/uploads/2019/03/ix_img-772x478.jpg" class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                    alt="" data-lazy-srcset="https://linica.jp/wp-content/uploads/2019/03/ix_img-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2019/03/ix_img-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2019/03/ix_img-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2019/03/ix_img-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2019/03/ix_img-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2019/03/ix_img-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2019/03/ix_img-386x239.jpg 386w"
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2019/03/ix_img-772x478.jpg" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2019/03/ix_img-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2019/03/ix_img-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2019/03/ix_img-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2019/03/ix_img-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2019/03/ix_img-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2019/03/ix_img-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2019/03/ix_img-386x239.jpg 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
                             <p class="c-works-list__items__item__title-en f-b ft-16">名称：中国美食城</p>
                             <h3 class="c-works-list__items__item__title">类别：网站建设</h3>
                             <p class="c-works-list__items__item__category">WEB</p>
                         </a>
                     </div>
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/tanq-gakusha/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
-                                    data-lazy-src="https://linica.jp/wp-content/uploads/2019/03/tanq_mv-772x478.jpg"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
-                                    data-lazy-srcset="https://linica.jp/wp-content/uploads/2019/03/tanq_mv-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-386x239.jpg 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2019/03/tanq_mv-772x478.jpg"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2019/03/tanq_mv-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-386x239.jpg 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
+                                    data-lazy-src="https://linica.jp/wp-content/uploads/2019/03/tanq_mv-772x478.jpg" class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                    alt="" data-lazy-srcset="https://linica.jp/wp-content/uploads/2019/03/tanq_mv-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-386x239.jpg 386w"
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2019/03/tanq_mv-772x478.jpg" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2019/03/tanq_mv-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2019/03/tanq_mv-386x239.jpg 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
                             <p class="c-works-list__items__item__title-en f-b ft-16">名称：中审咨询</p>
                             <h3 class="c-works-list__items__item__title">类别：响应式网站</h3>
                             <p class="c-works-list__items__item__category">WEB / BRANDING</p>
                         </a>
                     </div>
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/jamstec-sdgs/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
                                     data-lazy-src="https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-772x478.jpg"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
+                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
                                     data-lazy-srcset="https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-386x239.jpg 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-772x478.jpg"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-386x239.jpg 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
-                            <p class="c-works-list__items__item__title-en">JAMSTEC's practices for SDGs</p>
-                            <h3 class="c-works-list__items__item__title">海洋研究開発機構JAMSTEC<br>SDGs取り組み紹介サイト制作</h3>
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-772x478.jpg" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2019/01/mainvisual_2360x1458-386x239.jpg 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
+                            <p class="c-works-list__items__item__title-en">名称：有谱科技</p>
+                            <h3 class="c-works-list__items__item__title">类别：小程序</h3>
                             <p class="c-works-list__items__item__category">WEB</p>
                         </a>
                     </div>
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/tani-moku/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
                                     data-lazy-src="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-772x478.jpg"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
+                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
                                     data-lazy-srcset="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-386x239.jpg 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-772x478.jpg"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-386x239.jpg 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
-                            <p class="c-works-list__items__item__title-en">TANI-MOKU by PERSOL CAREER</p>
-                            <h3 class="c-works-list__items__item__title">他人に目標をたててもらうワークショップ「タニモク」</h3>
-                            <p class="c-works-list__items__item__category">WEB / BRANDING / GRAPHIC / LOGO</p>
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-772x478.jpg" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1-386x239.jpg 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
+                            <p class="c-works-list__items__item__title-en">名称：中国电信</p>
+                            <h3 class="c-works-list__items__item__title">类别：动画设计</h3>
+                            <p class="c-works-list__items__item__category">网站链接</p>
                         </a>
                     </div>
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/seidensha/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
                                     data-lazy-src="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-772x478.jpg"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
+                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
                                     data-lazy-srcset="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-386x239.jpg 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-772x478.jpg"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-386x239.jpg 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
-                            <p class="c-works-list__items__item__title-en">KK.SEIDENSHA</p>
-                            <h3 class="c-works-list__items__item__title">株式会社清電社<br>コーポレートサイト制作</h3>
-                            <p class="c-works-list__items__item__category">WEB</p>
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-772x478.jpg" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/09/mainvisual_2360x1458-386x239.jpg 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
+                            <p class="c-works-list__items__item__title-en">名称：中国移动</p>
+                            <h3 class="c-works-list__items__item__title">类别：动画设计</h3>
+                            <p class="c-works-list__items__item__category">网站链接</p>
                         </a>
                     </div>
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/tsptaiyo/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
-                                    data-lazy-src="https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-772x478.jpg"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
-                                    data-lazy-srcset="https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-386x239.jpg 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-772x478.jpg"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-386x239.jpg 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
-                            <p class="c-works-list__items__item__title-en">TSP TAIYO INC.</p>
-                            <h3 class="c-works-list__items__item__title">TSP太陽株式会社<br>コーポレートサイト</h3>
-                            <p class="c-works-list__items__item__category">WEB / BRANDING</p>
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
+                                    data-lazy-src="https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-772x478.jpg" class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                    alt="" data-lazy-srcset="https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-386x239.jpg 386w"
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-772x478.jpg" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/07/tsp_MV_3-386x239.jpg 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
+                            <p class="c-works-list__items__item__title-en">名称：中国联通</p>
+                            <h3 class="c-works-list__items__item__title">类别：动画设计</h3>
+                            <p class="c-works-list__items__item__category">网站链接</p>
                         </a>
                     </div>
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/rocket-girls/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
                                     data-lazy-src="https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-772x478.jpg"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
+                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
                                     data-lazy-srcset="https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-386x239.jpg 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-772x478.jpg"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-386x239.jpg 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
-                            <p class="c-works-list__items__item__title-en">Rocket Girls</p>
-                            <h3 class="c-works-list__items__item__title">書籍ロケットガールの誕生<br>装丁デザイン</h3>
-                            <p class="c-works-list__items__item__category">GRAPHIC</p>
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-772x478.jpg" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2018/07/book_main_2_2360x1458-386x239.jpg 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
+                            <p class="c-works-list__items__item__title-en">名称：中国电信</p>
+                            <h3 class="c-works-list__items__item__title">类别：动画设计</h3>
+                            <p class="c-works-list__items__item__category">网站链接</p>
                         </a>
                     </div>
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/one-earth-guardians/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
-                                    data-lazy-src="https://linica.jp/wp-content/uploads/2018/05/OEG_main-772x478.png"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
-                                    data-lazy-srcset="https://linica.jp/wp-content/uploads/2018/05/OEG_main-772x478.png 772w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-360x222.png 360w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-840x519.png 840w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-1180x729.png 1180w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-386x239.png 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2018/05/OEG_main-772x478.png"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2018/05/OEG_main-772x478.png 772w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-360x222.png 360w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-840x519.png 840w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-1180x729.png 1180w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-386x239.png 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
-                            <p class="c-works-list__items__item__title-en">ONE EARTH GUARDIANS</p>
-                            <h3 class="c-works-list__items__item__title">東京大学<br>大学院農学生命科学研究科</h3>
-                            <p class="c-works-list__items__item__category">WEB / BRANDING / GRAPHIC</p>
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
+                                    data-lazy-src="https://linica.jp/wp-content/uploads/2018/05/OEG_main-772x478.png" class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                    alt="" data-lazy-srcset="https://linica.jp/wp-content/uploads/2018/05/OEG_main-772x478.png 772w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-360x222.png 360w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-840x519.png 840w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-1180x729.png 1180w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-386x239.png 386w"
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2018/05/OEG_main-772x478.png" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2018/05/OEG_main-772x478.png 772w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-360x222.png 360w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-840x519.png 840w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-1180x729.png 1180w, https://linica.jp/wp-content/uploads/2018/05/OEG_main-386x239.png 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
+                            <p class="c-works-list__items__item__title-en">名称：中国移动</p>
+                            <h3 class="c-works-list__items__item__title">类别：动画设计</h3>
+                            <p class="c-works-list__items__item__category">网站链接</p>
                         </a>
                     </div>
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/how-to-make-kibo/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
-                                    data-lazy-src="https://linica.jp/wp-content/uploads/2017/05/book_main-772x478.jpg"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
-                                    data-lazy-srcset="https://linica.jp/wp-content/uploads/2017/05/book_main-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/05/book_main-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/05/book_main-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/05/book_main-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/05/book_main-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/05/book_main-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/05/book_main-386x239.jpg 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2017/05/book_main-772x478.jpg"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2017/05/book_main-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/05/book_main-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/05/book_main-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/05/book_main-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/05/book_main-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/05/book_main-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/05/book_main-386x239.jpg 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
-                            <p class="c-works-list__items__item__title-en">How to make "Kibo"</p>
-                            <h3 class="c-works-list__items__item__title">書籍 「きぼう」のつくりかた<br>装丁デザイン</h3>
-                            <p class="c-works-list__items__item__category">GRAPHIC</p>
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
+                                    data-lazy-src="https://linica.jp/wp-content/uploads/2017/05/book_main-772x478.jpg" class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                    alt="" data-lazy-srcset="https://linica.jp/wp-content/uploads/2017/05/book_main-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/05/book_main-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/05/book_main-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/05/book_main-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/05/book_main-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/05/book_main-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/05/book_main-386x239.jpg 386w"
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2017/05/book_main-772x478.jpg" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2017/05/book_main-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/05/book_main-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/05/book_main-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/05/book_main-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/05/book_main-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/05/book_main-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/05/book_main-386x239.jpg 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
+                            <p class="c-works-list__items__item__title-en">名称：中国联通</p>
+                            <h3 class="c-works-list__items__item__title">类别：动画设计</h3>
+                            <p class="c-works-list__items__item__category">网站链接</p>
                         </a>
                     </div>
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/jaxa-mmx/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
-                                    data-lazy-src="https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-772x478.jpg"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
-                                    data-lazy-srcset="https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-386x239.jpg 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-772x478.jpg"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-386x239.jpg 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
-                            <p class="c-works-list__items__item__title-en">Martian Moons Exploration </p>
-                            <h3 class="c-works-list__items__item__title">火星衛星探査計画（MMX）<br>Webサイト</h3>
-                            <p class="c-works-list__items__item__category">WEB / LOGO / OTHER</p>
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
+                                    data-lazy-src="https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-772x478.jpg" class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                    alt="" data-lazy-srcset="https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-386x239.jpg 386w"
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-772x478.jpg" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/04/mmx_main_2-386x239.jpg 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
+                            <p class="c-works-list__items__item__title-en">名称：中国电信</p>
+                            <h3 class="c-works-list__items__item__title">类别：动画设计</h3>
+                            <p class="c-works-list__items__item__category">网站链接</p>
                         </a>
                     </div>
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/persol/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
-                                    data-lazy-src="https://linica.jp/wp-content/uploads/2017/03/persol_main-772x478.jpg"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
-                                    data-lazy-srcset="https://linica.jp/wp-content/uploads/2017/03/persol_main-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/03/persol_main-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/03/persol_main-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/03/persol_main-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/03/persol_main-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/03/persol_main-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/03/persol_main-386x239.jpg 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2017/03/persol_main-772x478.jpg"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2017/03/persol_main-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/03/persol_main-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/03/persol_main-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/03/persol_main-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/03/persol_main-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/03/persol_main-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/03/persol_main-386x239.jpg 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
-                            <p class="c-works-list__items__item__title-en">PERSOL TECHNOLOGY STAFF</p>
-                            <h3 class="c-works-list__items__item__title">パーソルテクノロジースタッフ<br>企業サイト・中途採用サイト</h3>
-                            <p class="c-works-list__items__item__category">WEB</p>
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
+                                    data-lazy-src="https://linica.jp/wp-content/uploads/2017/03/persol_main-772x478.jpg" class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                    alt="" data-lazy-srcset="https://linica.jp/wp-content/uploads/2017/03/persol_main-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/03/persol_main-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/03/persol_main-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/03/persol_main-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/03/persol_main-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/03/persol_main-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/03/persol_main-386x239.jpg 386w"
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2017/03/persol_main-772x478.jpg" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2017/03/persol_main-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/03/persol_main-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/03/persol_main-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/03/persol_main-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/03/persol_main-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/03/persol_main-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/03/persol_main-386x239.jpg 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
+                            <p class="c-works-list__items__item__title-en">名称：中国移动</p>
+                            <h3 class="c-works-list__items__item__title">类别：动画设计</h3>
+                            <p class="c-works-list__items__item__category">网站链接</p>
                         </a>
                     </div>
                     <div class="c-works-list__items__item">
-                        <a href="https://linica.jp/works/nobeyama/">
-                            <p class="c-works-list__items__item__image"><img width="772" height="478"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-lazy-type="image"
+                        <a href="./case-detail.html">
+                            <p class="c-works-list__items__item__image">
+                                <img width="772" height="478" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image"
                                     data-lazy-src="https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-772x478.jpg"
-                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
-                                    alt=""
+                                    class="lazy lazy-hidden attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
                                     data-lazy-srcset="https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-386x239.jpg 386w"
-                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" /><noscript><img width="772"
-                                        height="478"
-                                        src="https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-772x478.jpg"
-                                        class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image" alt=""
-                                        srcset="https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-386x239.jpg 386w"
-                                        sizes="(max-width: 772px) 100vw, 772px" /></noscript></p>
-                            <p class="c-works-list__items__item__title-en">NAOJ Nobeyama Radio Observatory</p>
-                            <h3 class="c-works-list__items__item__title">国立天文台<br>野辺山宇宙電波観測所</h3>
-                            <p class="c-works-list__items__item__category">WEB / LOGO</p>
+                                    data-lazy-sizes="(max-width: 772px) 100vw, 772px" />
+                                <noscript>
+                                    <img width="772" height="478" src="https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-772x478.jpg" class="attachment-works-thumb@2x size-works-thumb@2x wp-post-image"
+                                        alt="" srcset="https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-772x478.jpg 772w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-300x185.jpg 300w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-1024x633.jpg 1024w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-360x222.jpg 360w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-840x519.jpg 840w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-1180x729.jpg 1180w, https://linica.jp/wp-content/uploads/2017/03/nobeyama_main_3_-386x239.jpg 386w"
+                                        sizes="(max-width: 772px) 100vw, 772px" />
+                                </noscript>
+                            </p>
+                            <p class="c-works-list__items__item__title-en">名称：中国联通</p>
+                            <h3 class="c-works-list__items__item__title">类别：动画设计</h3>
+                            <p class="c-works-list__items__item__category">网站链接</p>
                         </a>
                     </div>
                 </div>
-                <p class="c-works-list__more"><a href="https://linica.jp/works/page/2/">VIEW MORE<i></i></a></p>
+                <p class="c-works-list__more">
+                    <a href="javascript:;">VIEW MORE
+                        <i></i>
+                    </a>
+                </p>
                 <p class="c-works-list__loading">... LOADING ...</p>
             </div>
 
@@ -389,63 +381,66 @@
                 <div class="p-top-section-cta__download">
                     <div class="p-top-section-cta__download__inner">
                         <div class="p-top-section-cta__download__header">
-                            <p class="p-top-section-cta__download__header__title-en *is-waypoint">DOWNLOAD</p>
+                            <p class="p-top-section-cta__download__header__title-en *is-waypoint">业务咨询</p>
                             <h2 class="p-top-section-cta__download__header__title *is-waypoint">資料ダウンロード</h2>
                         </div>
-                        <p><a class="c-button c-button--small c-button--border-none" href="/download/"><span>Download
-                                    Form</span><i></i></a></p>
+                        <p>
+                            <a class="c-button c-button--small c-button--border-none" href="javascript:;">
+                                <span>业务咨询</span>
+                                <i></i>
+                            </a>
+                        </p>
                     </div>
                 </div>
-                <a href="/contact/" class="p-top-section-cta__contact">
+                <a href="./concat-us.html" class="p-top-section-cta__contact">
                     <div class="p-top-section-cta__contact__inner">
                         <div class="p-top-section-cta__contact__header">
-                            <p class="p-top-section-cta__contact__header__title-en *is-waypoint">CONTACT</p>
+                            <p class="p-top-section-cta__contact__header__title-en *is-waypoint">联系我们</p>
                             <h2 class="p-top-section-cta__contact__header__title *is-waypoint">お問い合わせ</h2>
                         </div>
-                        <p><span class="c-button c-button--small"><span>Contact form</span><i></i></span></p>
+                        <p>
+                            <span class="c-button c-button--small">
+                                <span>Contact form</span>
+                                <i></i>
+                            </span>
+                        </p>
                     </div>
                 </a>
             </div>
 
         </main>
 
-        <div class="l-topicpath">
-            <ul class="l-topicpath__inner">
-                <!-- Breadcrumb NavXT 6.2.1 -->
-                <li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                            title="Go to 株式会社LINICA（リニカ）." href="https://linica.jp" class="home"><span
-                                property="name">HOME</span></a>
-                        <meta property="position" content="1"></span></li>
-                <li class="archive post-works-archive current-item"><span
-                        class="archive post-works-archive current-item">実績</span></li>
-            </ul>
-        </div>
-
         <footer class="l-footer">
             <div class="l-footer__inner">
-                <p class="l-footer__sitelogo"><a href="https://linica.jp"><img
-                            src="https://linica.jp/wp-content/themes/linica/assets/img/logo_footer.svg"
-                            alt="株式会社LINICA（リニカ）" width="196" height="34"></a></p>
+                <p class="l-footer__sitelogo">
+                    <a href="https://linica.jp">
+                        <img src="https://linica.jp/wp-content/themes/linica/assets/img/logo_footer.svg" alt="株式会社LINICA（リニカ）" width="196" height="34">
+                    </a>
+                </p>
                 <div class="l-footer__nav">
                     <ul id="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93" class="menu">
-                        <li id="menu-item-3391"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3391"><a
-                                href="https://linica.jp/privacy/">PRIVACY POLICY</a></li>
+                        <li id="menu-item-3391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3391">
+                            <a href="https://linica.jp/privacy/">021QSJ.com</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="l-footer__address">
-                    <address class="l-footer__address__ja">102-0074 東京都千代田区九段南3-2-7 いちご九段三丁目ビル B1F 03-3288-1681
-                    </address>
-                    <address class="l-footer__address__en">B1F, 3-2-7 Ichigo Kudan 3-chome Bld., Kudanminami,
-                        Chiyoda-ku, Tokyo, 102-0074, Japan 03-3288-1681</address>
+                    <address class="l-footer__address__ja">上海市松江区银都西路350号歆翱创意园D223室</address>
+                    <address class="l-footer__address__en">联系人：蒋先生&nbsp;&nbsp;&nbsp;直线：15721482787&nbsp;&nbsp;&nbsp;&nbsp;电话：021-6645772&nbsp;&nbsp;&nbsp;&nbsp;邮箱：307446212@qq.c</address>
                 </div>
                 <ul class="l-footer__sns">
-                    <li><a href="https://twitter.com/linica_inc" target="_blank" rel="noopener"><i class="icon-twitter"
-                                aria-label="twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/linicainc" target="_blank" rel="noopener"><i
-                                class="icon-facebook" aria-label="facebook"></i></a></li>
+                    <li>
+                        <a href="javascript:;" rel="noopener">
+                            <img src="../img/ewm.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" rel="noopener">
+                            <img src="../img/qq.png" alt="">
+                        </a>
+                    </li>
                 </ul>
-                <p class="l-footer__copyright">&copy;LINICA,Inc.</p>
+                <p class="l-footer__copyright">&copy; 沪ICP备 24556789</p>
             </div>
         </footer>
 

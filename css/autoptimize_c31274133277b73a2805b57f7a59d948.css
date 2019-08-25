@@ -2,7 +2,7 @@
 .p-top-section-works {
     padding-bottom: 110px;
     background: url(../img/work-bg.jpg) no-repeat;
-    background-size: 100% 500px;
+    background-size: 100% 670px;
     border-top: 1px solid #dfdfdf;
     position: relative;
 }
@@ -845,10 +845,9 @@ button {
 body {
     color: #3f3f3f;
     background: #fff;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.85714;
     letter-spacing: .04em;
-    font-family: "貂ｸ繧ｴ繧ｷ繝�け菴�", YuGothic, "貂ｸ繧ｴ繧ｷ繝�け", "Yu Gothic", "繝｡繧､繝ｪ繧ｪ", sans-serif;
     font-weight: 500;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
@@ -2159,6 +2158,7 @@ html.is-loading .l-works-header__category:before {
 
 .l-footer {
     position: relative;
+    z-index: 999;
     padding: 80px 60px 74px;
     margin-left: 100px;
     background: #f4f4f4;
@@ -2290,13 +2290,16 @@ html.is-loading .l-works-header__category:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 106px;
+    height: 106px;
+    border: 7px solid #fff;
     color: #f4f4f4;
-    background: #aaa;
-    border-radius: 50%;
     text-decoration: none;
-    font-size: 22px
+    font-size: 22px;
+    transition: all .3s ease;
+}
+.l-footer__sns li a:hover {
+    background: #b0b0b0;
 }
 
 .l-footer__address {
@@ -2326,7 +2329,6 @@ html.is-loading .l-works-header__category:before {
 }
 
 .l-footer__address__en {
-    font-family: BrandonTextWeb-Medium
 }
 
 .l-footer__copyright {
@@ -2553,7 +2555,7 @@ html.is-admin-bar-showing .c-linica-tm {
 
 .c-casestudy-index__item__body {
     position: relative;
-    padding: 55px 40px 100px;
+    padding: 55px 40px 40px;
     color: #232323;
     letter-spacing: .04em
 }
@@ -2593,8 +2595,8 @@ html.is-admin-bar-showing .c-linica-tm {
 }
 
 .c-casestudy-index__item__title {
-    margin-top: 30px;
-    font-size: 16px;
+    margin-top: 70px;
+    font-size: 18px;
     font-weight: 700
 }
 
@@ -2913,7 +2915,7 @@ html.is-admin-bar-showing .c-linica-tm {
 }
 
 .c-button--primary {
-    background-color: #fef85f
+    background-color: #a61d39;
 }
 
 .c-button--primary[disabled] {
@@ -3128,7 +3130,7 @@ html.is-msie .c-linica-logo .path {
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    box-shadow: inset 10px 0 0 #fef85f;
+    box-shadow: inset 10px 0 0 #a61d39;
     line-height: 1
 }
 
@@ -3139,12 +3141,11 @@ html.is-msie .c-linica-logo .path {
         -webkit-writing-mode: unset;
         -ms-writing-mode: unset;
         writing-mode: unset;
-        box-shadow: inset 0 -10px 0 #fef85f
+        box-shadow: inset 0 -10px 0 #a61d39
     }
 }
 
 .c-mission__title>span:nth-child(1) {
-    font-family: "roboto-n5", "roboto";
     font-size: 32px
 }
 
@@ -3155,7 +3156,6 @@ html.is-msie .c-linica-logo .path {
 }
 
 .c-mission__title>span:nth-child(2) {
-    font-family: "ryo-display-plusn-n6", "ryo-display-plusn";
     font-size: 26px
 }
 
@@ -3166,7 +3166,6 @@ html.is-msie .c-linica-logo .path {
 }
 
 .c-mission__title>span:nth-child(3) {
-    font-family: "ryo-display-plusn-n6", "ryo-display-plusn";
     font-size: 32px
 }
 
@@ -3178,7 +3177,6 @@ html.is-msie .c-linica-logo .path {
 
 .c-mission__lead {
     color: #232323;
-    font-family: "roboto-n5", "roboto", "ryo-display-plusn-n6", "ryo-display-plusn";
     font-size: 24px;
     line-height: 1.63636;
     letter-spacing: .1em
@@ -3192,7 +3190,7 @@ html.is-msie .c-linica-logo .path {
 }
 
 .c-mission__text {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 2.8;
     letter-spacing: .06em
 }
@@ -3232,7 +3230,6 @@ html.is-msie .c-linica-logo .path {
     margin-right: 7vw;
     padding-left: 20px;
     color: #232323;
-    font-family: "roboto-n5", "roboto", "ryo-display-plusn-n6", "ryo-display-plusn";
     font-size: 24px;
     letter-spacing: .1em
 }
@@ -3247,7 +3244,9 @@ html.is-msie .c-linica-logo .path {
 
 .c-strength__items {
     display: flex;
-    justify-content: space-between
+    font-size:16px;
+    justify-content: space-between;
+    line-height: 40px;
 }
 
 @media (max-width:782px) {
@@ -3260,7 +3259,8 @@ html.is-msie .c-linica-logo .path {
 .c-strength__items__item {
     flex: 1 1 320px;
     margin-top: 25px;
-    margin-left: 3.125vw
+    margin-left: 3.125vw;
+    padding: 0px 80px;
 }
 
 .c-strength__items__item:last-child {
@@ -3269,7 +3269,8 @@ html.is-msie .c-linica-logo .path {
 
 @media (max-width:782px) {
     .c-strength__items__item {
-        margin: 40px 20px 0
+        margin: 40px 20px 0;
+        padding: 0;
     }
 }
 
@@ -3375,7 +3376,6 @@ html.is-msie .c-linica-logo .path {
     -webkit-transform: translateX(-4px);
     transform: translateX(-4px);
     color: #232323;
-    font-family: "roboto-n5", "roboto", "ryo-display-plusn-n6", "ryo-display-plusn";
     font-size: 24px;
     letter-spacing: .1em;
     line-height: 1
@@ -3476,7 +3476,6 @@ html.is-msie .c-linica-logo .path {
 .c-policy__title {
     margin-top: 40px;
     color: #232323;
-    font-family: "roboto-n5", "roboto", "ryo-display-plusn-n6", "ryo-display-plusn";
     font-size: 24px;
     letter-spacing: .1em
 }
@@ -3557,7 +3556,6 @@ html.is-msie .c-linica-logo .path {
     position: absolute;
     top: -45px;
     left: -41px;
-    font-family: "alternate-gothic-no-3-d";
     font-size: 78px;
     letter-spacing: .02em;
     color: #d9e1e6;
@@ -3850,7 +3848,7 @@ html.is-msie .c-linica-logo .path {
     position: absolute;
     top: 0;
     left: 0;
-    color: #274a9d;
+    color: #a61d39;
     line-height: 1
 }
 
@@ -3858,17 +3856,16 @@ html.is-msie .c-linica-logo .path {
     position: absolute;
     top: 3px;
     left: 0;
-    
     letter-spacing: .1em;
     font-size: 15px;
-    box-shadow: inset 0 -5px 0 #fef85f
+    box-shadow: inset 0 -5px 0 #bfbfbf
 }
 
 .c-topics-list__items__item__date__month {
     position: absolute;
     top: 75px;
     left: 10px;
-    
+    width: 80px;
     font-size: 14px;
     letter-spacing: .1em
 }
@@ -3884,7 +3881,7 @@ html.is-msie .c-linica-logo .path {
     top: 100px;
     left: 5px;
     padding-left: 25px;
-    
+    font-weight: bold;
     letter-spacing: .04em;
     font-size: 48px
 }
@@ -3983,10 +3980,10 @@ html.is-msie .c-linica-logo .path {
 .c-works-list__more a {
     position: relative;
     display: inline-block;
-    padding: 25px 15px;
+    padding: 25px 60px;
     color: #232323;
-    font-size: 18px;
-    
+    font-size: 22px;
+    font-weight: bold;
     letter-spacing: .18em;
     text-decoration: none;
     border-bottom: 1px solid currentColor
@@ -4174,8 +4171,8 @@ a:hover .c-works-list__items__item__image img {
 
 .c-works-list__items__item__title-en {
     margin-top: 20px;
-    font-size: 11px;
-    
+    font-size: 14px;
+    font-weight: bold;
     color: #232323;
     letter-spacing: .14em
 }
@@ -4481,7 +4478,6 @@ a:hover .c-works-list__items__item__title-en {
 .c-adjacent-nav__prev,
 .c-adjacent-nav__next {
     font-size: 14px;
-    font-family: BrandonTextWeb-Medium
 }
 
 @media (max-width:782px) {
@@ -4784,7 +4780,6 @@ a:hover .c-works-list__items__item__title-en {
 }
 
 .c-404__title-en>span:nth-child(1) {
-    font-family: "alternate-gothic-no-3-d";
     font-size: 160px;
     letter-spacing: .04em
 }
@@ -5415,7 +5410,7 @@ html.is-admin-bar-showing .p-top-section-mv__contact {
 .p-top-section-topics__header__title {
     margin-top: 20px;
     margin-left: 20px;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: .06em;
     color: #666
@@ -5455,7 +5450,7 @@ html.is-admin-bar-showing .p-top-section-mv__contact {
     margin: 7vw 14vw 0;
     line-height: 2.28571;
     letter-spacing: .04em;
-    font-size: 14px;
+    font-size: 18px;
     color: #3f3f3f
 }
 
@@ -6227,7 +6222,7 @@ a:hover .p-top-section-works__list__item__title-en {
 .p-top-section-cta__contact__header__title-en {
     margin-top: 40px;
     font-size: 30px;
-    
+    font-weight: bold;
     letter-spacing: .12em
 }
 
@@ -6241,7 +6236,7 @@ a:hover .p-top-section-works__list__item__title-en {
 
 .p-top-section-cta__download__header__title,
 .p-top-section-cta__contact__header__title {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700
 }
 
@@ -6444,7 +6439,7 @@ a:hover .p-top-section-works__list__item__title-en {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #274a9d;
+    color: #a61d39;
     line-height: 1
 }
 
@@ -6464,7 +6459,7 @@ a:hover .p-top-section-works__list__item__title-en {
     position: relative;
     margin-top: 14px;
     padding-left: 28px;
-    
+    font-weight: bold;
     letter-spacing: .04em;
     font-size: 56px
 }
@@ -7151,7 +7146,6 @@ a:hover .p-top-section-works__list__item__title-en {
 }
 
 .p-cs-article__case__outline__visitsite dt {
-    font-family: BrandonTextWeb-Medium
 }
 
 .p-cs-article__case__outline__visitsite dd {
@@ -7507,7 +7501,6 @@ a:hover .p-top-section-works__list__item__title-en {
     position: relative;
     flex: 0 0 11.71875vw;
     color: #274a9d;
-    font-family: "alternate-gothic-no-3-d";
     font-size: 78px;
     text-align: center;
     line-height: 1
@@ -8215,7 +8208,6 @@ html.is-form-confirmed .p-form__privacy {
     margin-right: 8px;
     color: #274a9d;
     font-size: 24px;
-    font-family: "alternate-gothic-no-3-d";
     font-weight: 500;
     line-height: 1
 }
@@ -8351,7 +8343,7 @@ html.is-form-confirmed .p-form__privacy {
     left: -6px;
     width: 11px;
     height: 11px;
-    background: #f1eb47;
+    background: #a61d39;
     z-index: 1
 }
 
@@ -8363,7 +8355,7 @@ html.is-form-confirmed .p-form__privacy {
     width: 11px;
     height: 11px;
     background: #fff;
-    border: 6px solid #f1eb47;
+    border: 6px solid #a61d39;
     z-index: 2;
     box-sizing: content-box
 }
@@ -8505,11 +8497,10 @@ html.is-form-confirmed .p-contact-form__tel {
     margin-right: 10px;
     padding: 4px 11px 2px;
     text-indent: .05em;
-    font-size: 12px;
-    
+    font-size: 18px;
+    font-weight: bold;
     letter-spacing: .1em;
     background: #fff;
-    font-weight: 400;
     line-height: 1;
     border: 1px solid #232323
 }
@@ -8523,8 +8514,7 @@ html.is-form-confirmed .p-contact-form__tel {
 
 .p-contact-form__tel__box__body__num {
     font-size: 28px;
-    
-    color: #274a9d;
+    color: #a61d39;
     line-height: 1;
     letter-spacing: .1em
 }
@@ -8658,7 +8648,6 @@ body.page-template-page-tmpl-contact-thanks-php .p-contact-form__form {
     margin-right: 8px;
     color: #274a9d;
     font-size: 28px;
-    font-family: "alternate-gothic-no-3-d";
     font-weight: 500;
     line-height: 1
 }
