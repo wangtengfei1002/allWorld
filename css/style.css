@@ -1096,30 +1096,31 @@ h3 span.line{display:block;height: 1px;width:100px;}
   opacity: 0;
 }
 .serv_con01 .serv_c01_left .c01_l_con{    float: left;
-  margin-left: 150px;width: 600px;}
+  margin-left: 200px;width: 600px;}
 .serv_con01 .serv_c01_left li p{color: #7d7d7d;}
 .serv_con01 .serv_c01_left li:nth-child(3) img{margin-left: 27px}
 .serv_con01 .serv_c01_right{position: absolute;left: 50%;
   right:-100px;opacity: 0;top:15%;
 }
-.serv_con01 .serv_c01_right .c01_r_con{float: right;}
+.serv_con01 .serv_c01_right .c01_r_con{float: right;position: absolute;top: -200px}
 .serv_con01 .serv_c01_right .c01_r_con img{width: 100%;}
 @media only screen and (max-width: 1366px){
   .serv_con01 h3{margin-top: 70px;}
+  .serv_con01 .serv_c01_right .c01_r_con{float: right;position: absolute;top: -20px}
 }
 @media only screen and (max-width: 1280px){
   .serv_con01 .serv_c01_left .c01_l_con{width: 95%;}
 }
 @media only screen and (max-width: 1024px){
   .serv_con01 .serv_c01_right{top: 25%;}
+  .serv_con01 .serv_c01_right .c01_r_con{float: right;position: absolute;top: 0px}
 }
 @media only screen and (max-width: 650px){
   .serv_con01 h3{margin-top: 20px;}
   .serv_con01 .serv_c01_left .c01_l_con{width: 100%;padding:0 20px;box-sizing:border-box;}
-  .serv_con01 .serv_c01_right{position: static;}
+  .serv_con01 .serv_c01_right{position: static;height: 300px}
   .serv_con01 .serv_c01_right .c01_r_con{float: none;}
   .serv_con01 .serv_c01_left{width:100%;}
-
   .serv_con01 .serv_c01_left li:nth-child(3) img{margin-left: 15px;}
 
 }

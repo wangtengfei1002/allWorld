@@ -1,3 +1,6 @@
+* {
+    font-family: "微软雅黑";
+}
 .mt-50 {
     margin-top: 50px;
 }
@@ -36,6 +39,9 @@
 .ft-24 {
     font-size: 24px;
 }
+.ft-30 {
+    font-size: 30px;
+}
 .ft-34 {
     font-size: 32px;
 }
@@ -47,6 +53,9 @@
 }
 .p-lr-100 {
     padding: 0 100px;
+}
+.l-footer__address br {
+    display: none;
 }
 .more-sub-title {
     margin-top: 30px;
@@ -78,7 +87,8 @@
 }
 .marketing-page .l-category-header {
     height: 800px;
-    background: #35aae6;
+    background: url(../img/ix_img-386x239.jpg);
+    background-size: cover;
 }
 .marketing-text-wrap {
     width:380px;
@@ -91,8 +101,9 @@
     margin-top: 100px;
 }
 .creative-page .l-category-header {
-    background: #d5df34;
-    color: 000;
+    background: url(../img/work-bg.jpg);
+    background-size: cover;
+    color: #000;
 }
 .creative-page .l-category-header__title-en {
     color: #000;
@@ -123,6 +134,9 @@
     margin-left: 150px !important;
 }
 @media (max-width: 782px) {
+    .l-footer__address br {
+        display: block;
+    }
     .p-top-section-works__list__nav {
         position: absolute;
         top: 374px;
@@ -148,9 +162,32 @@
 }
 .web-header {
     background: #a61d39 !important;
+    overflow: hidden;
+    height: 750px;
+    position: relative;
 }
-.web-header .serv_c01_left {
+.web-header .left {
+    position: absolute;
+    width: 600px;
+    left: 0;
+    opacity: 0;
+    transition: all 2s ease;
+}
+.web-header .left.active {
+    left: 200px;
+    opacity: 1;
+}
+.web-header .right {
+    position: absolute;
+    left: 100%;
+    top: 19%;
+    opacity: 0;
     width: 40%;
+    transition: all 2s ease;
+}
+.web-header .right.active {
+    left: 46%;
+    opacity: 1;
 }
 .web-header .serv_c01_right {
     left: 40%;
@@ -256,6 +293,14 @@
     .web-header {
         display: none;
     }
+    .web-header .left {
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    .web-header .right {
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .web-phone-header {
         display: block;
     }
@@ -263,6 +308,9 @@
         margin-top: 50px;
         text-align: center;
         color: #fff !important;
+    }
+    .web-header h3 p{
+        font-size: 30px;
     }
     .web-header-detail {
         text-align: center;
@@ -289,6 +337,14 @@
         width: 396px;
         margin: 0 auto;
         display: block;
+        position: absolute;
+        top: -200px;
+    }
+    .web-header .right.active {
+        left: 50%;
+        transform: translateX(-50%);
+        top: auto;
+        bottom: 10px;
     }
     .p-lr-200 {
         padding: 0;
@@ -330,5 +386,17 @@
     }
     .service h3 {
         margin-top: 20px;
+    }
+    .web-header .right {
+        width: 80%;
+    }
+    .web-header h3 p {
+        font-size: 24px;
+    }
+    .web-header h3 em.en {
+        font-size: 18px;
+    }
+    .web-header-detail {
+        font-size: 14px;
     }
   }

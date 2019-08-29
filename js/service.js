@@ -37,7 +37,16 @@ $(function(){
 
 })
 function scroll_anim(){
-
+  if(scrollT($('.serv_con01'))){
+    $('.serv_con01 .serv_c01_right').animate({
+      'opacity':'1',
+      'right':0,
+    },1000);
+    $('.serv_con01 .serv_c01_left').animate({
+      'opacity':'1',
+      'left':'0px'
+    },1000);
+  }
     if(scrollT($('.serv_con02'))){
       $('.serv_con02 .serv_c02_right').animate({
         'opacity':'1'
