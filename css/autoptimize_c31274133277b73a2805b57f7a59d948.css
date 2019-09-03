@@ -1827,13 +1827,13 @@ html.is-scrolled .l-header__pagetop>span {
 }
 
 .l-category-header--about {
-    background: url(../img/ix_img-386x239.jpg) 50% 50%;
+    background: url(../img/ix_img-386x239.png) 50% 50%;
     background-size: cover
 }
 
 .l-category-header--casestudy {
     padding-bottom: 88px;
-    background: url(../img/ix_img-386x239.jpg) 50% 50%;
+    background: url(../img/ix_img-386x239.png) 50% 50%;
     background-size: cover
 }
 
@@ -1844,17 +1844,17 @@ html.is-scrolled .l-header__pagetop>span {
 }
 
 .l-category-header--works {
-    background: url(../img/ix_img-386x239.jpg) 50% 50%;
+    background: url(../img/ix_img-386x239.png) 50% 50%;
     background-size: cover
 }
 
 .l-category-header--topics {
-    background: url(../img/ix_img-386x239.jpg) 50% 50%;
+    background: url(../img/ix_img-386x239.png) 50% 50%;
     background-size: cover
 }
 
 .l-category-header--company {
-    background: url(../img/ix_img-386x239.jpg) 50% 50%;
+    background: url(../img/ix_img-386x239.png) 50% 50%;
     background-size: cover
 }
 
@@ -2523,7 +2523,7 @@ html.is-admin-bar-showing .c-linica-tm {
     display: block;
     margin-left: -1px;
     padding-top: 106%;
-    background: url(../img/ix_img-386x239.jpg) no-repeat;
+    background: url(../img/ix_img-386x239.png) no-repeat;
     background-size: auto 100%;
     z-index: 5
 }
@@ -6244,7 +6244,7 @@ a:hover .p-top-section-works__list__item__title-en {
 }
 
 .p-top-section-cta__download {
-    background: url(../img/ix_img-386x239.jpg) no-repeat 50% 50%;
+    background: url(../img/ix_img-386x239.png) no-repeat 50% 50%;
     background-size: cover
 }
 
@@ -6308,9 +6308,14 @@ a:hover .p-top-section-works__list__item__title-en {
     background-color: #232323;
     transition: inherit
 }
-
-.p-top-section-cta__contact:hover {
-    color: #fff
+.p-top-section-cta__contact:hover{
+    color: #fff !important;
+}
+.more-sub-title {
+    transition: all .4s cubic-bezier(.78, .07, 0, 1) .2s;
+}
+.p-top-section-cta__contact:hover .more-sub-title{
+    color: #fff !important;
 }
 
 .p-top-section-cta__contact:hover:before {
